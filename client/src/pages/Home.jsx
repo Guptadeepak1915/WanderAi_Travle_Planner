@@ -190,7 +190,7 @@ const Home = () => {
           <FaMapMarkerAlt className="text-purple-500" />
           <span className="text-white font-bold">WanderAI</span>
         </div>
-        <p className="text-sm">Made By Deepak Gupta | solo travelers and All Others</p>
+        <p className="text-sm">Made By Deepak Gupta | This is for solo travelers and All Others</p>
       </footer>
     </div>
   );
