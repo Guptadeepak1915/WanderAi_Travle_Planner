@@ -20,7 +20,7 @@ const Explore = () => {
   const [selectedPlace, setSelectedPlace] = useState(null);
   const { location } = useGeolocation();
 
-  const popularCities = ['Delhi', 'Jaipur', 'Mumbai', 'Agra', 'Varanasi', 'Goa'];
+  const popularCities = ['Delhi', 'Jaipur', 'Mumbai', 'Agra', 'Varanasi', 'Goa' , 'Bihar'];
 
   const handleSearch = async (cityName) => {
     const searchCity = cityName || city;
