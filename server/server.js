@@ -40,3 +40,7 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/places', require('./routes/places'));
 app.use('/api/history', require('./routes/history'));
 app.use('/api/ai', require('./routes/ai')); // ← ye add karo
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT} 🌍`);
+});

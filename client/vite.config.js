@@ -6,8 +6,7 @@ import {qrcode} from 'vite-plugin-qrcode'
 export default defineConfig({
   plugins: [react(),qrcode()],
   server: {
-    allowedHosts: [
-      'careers-suzuki-collins-payment.trycloudflare.com'
-    ]
+    host: '0.0.0.0',
+    port: 5173
   }
 })
