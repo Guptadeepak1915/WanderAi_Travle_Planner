@@ -170,7 +170,7 @@ const Home = () => {
       <div className="py-20 px-4 bg-gradient-to-r from-purple-700 to-blue-500">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-4">
-            Ready to Explore? 🚀
+            Ready to Explore?
           </h2>
           <p className="text-purple-100 text-lg mb-8">
             Join thousands of solo travelers using WanderAI
