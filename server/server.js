@@ -11,7 +11,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://wander-ai-travle-planner.vercel.app' // ← apna Vercel URL
+    'https://wander-ai-travle-planner.vercel.app' // Vercel URL
   ],
   credentials: true
 }));
@@ -25,8 +25,6 @@ app.get('/', (req, res) => {
   res.send('WanderAI API is running 🚀');
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT} 🌍`));
 
 // Routes
 app.use('/api/auth', require('./routes/auth'));
@@ -41,6 +39,7 @@ app.use('/api/places', require('./routes/places'));
 app.use('/api/history', require('./routes/history'));
 app.use('/api/ai', require('./routes/ai')); // ← ye add karo
 
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT} 🌍`);
 });
