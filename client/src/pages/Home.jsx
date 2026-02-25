@@ -64,7 +64,7 @@ const Home = () => {
           </div>
 
           <p className="text-2xl text-purple-100 mb-4 font-medium">
-            Your AI-Powered Travel Companion 🗺️
+            Your AI-Powered Travel Companion 🎗️
           </p>
           <p className="text-purple-200 text-lg mb-10 max-w-2xl mx-auto">
             Discover amazing places around you, get AI travel tips, plan your perfect day trip — all in one app!
