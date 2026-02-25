@@ -11,7 +11,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://wander-ai-travle-planner.vercel.app'
+    'https://wanderai-travle-planner.vercel.app'
   ],
   credentials: true
 }));
